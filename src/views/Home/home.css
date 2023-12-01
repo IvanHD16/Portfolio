@@ -1,3 +1,79 @@
-.img-proyect{
-    width: 600px
+/* https://paletadecolores.com.ar/paleta/063940/195e63/3e838c/8ebdb6/ece1c3/ */
+body{
+    background-color: #3e838c;
 }
+.img-yo{
+    width: 250px;
+    border-radius: 50%;
+}
+
+.img-contact{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.cont-presentacion {
+    background-color: #ece1c3;
+    width: 300px; /* Ancho de la barra lateral */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center;
+    justify-content: space-around;
+    position: fixed; /* Fijar la barra lateral para que se mantenga visible mientras se desplaza */
+    left: 0; /* Alinear la barra en el lado izquierdo */
+    top: 0; /* Alinear la barra en la parte superior */
+}
+
+
+.img-henry{
+    width: 80px;
+    margin-left: 5px;
+}
+
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Sección de presentación personal */
+  div > div:first-child {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  
+  div > div:first-child p {
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+  
+  /* Sección de educación y proyectos */
+  div > div:last-child {
+    margin-top: 30px;
+  }
+  
+  div > div:last-child p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #3498db; /* Puedes cambiar el color según tus preferencias */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para las imágenes de los proyectos */
+  .img-proyect {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
